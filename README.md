@@ -17,8 +17,30 @@ Inicialmente el contenido inicial y la propuesta consistirá en crear unos cubos
 
 ## 2. Planteamiento del proyecto
 ------
-Primero deberé investigar posibles referentes en youtube, stackoverflow y liblos de inteligencia artificial de la biblioteca de la universidad complutense.
+
+Creación de un grupo minoritario de 5 game objects.
+Establecimiento de un sistema de merodeo en 3 dimensiones. Puede establecerse con movimiento directo con vectores 3D, aplicando fuerzas físicas o recurriendo a los cuaterniones de Unity.
+
+Posteriormente una vez establecido se puede crear un sistema con arboles de comportamientos o con Bolt para llamar a los distintos comportamientos que se desean implementar, a saber:
+- Que los game objects sean conscientes de la cercanía de otros game objects ya sea por raycasting, por detección de colliders más grandes que el propio game object
+que le permita conocer la ubicación de otros en su radio de acción.
+- Una vez detectados se deberá llamar a los distintos comportamientos dependiendo de ciertas condiciones.
+Si es un individuo solitario:
+  * Si el otro game object tiene un tamaño superior a si mismo considerará que es un depredador y entrará en comportamiento de huida.
+  * Si tiene un tamaño similar considerará que es de su misma especie y entrará a formar parte de su manada o banco, moviendose en conjunto.
+  * Si tiene un tamaño inferior considerará que es una presa y procederá a atacarlo y si lo alcanza lo devorará, destruyéndolo.
+Si ya está grupo y encuentran un solo individuo:
+  * Si el otro game object tiene un tamaño superior al más grande del grupo considerará que es un depredador y entrarán en comportamiento de huida.
+  * Si tiene un tamaño similar considerará que es de su misma especie y entrará a formar parte de su manada o banco, moviendose en conjunto.
+  * Si tiene un tamaño inferior considerará que es una presa y procederá a atacarlo el líder del grupo y si lo alcanza lo devorará, destruyéndolo.
+Si se encuentran dos grupos:
+  * Si los líderes de ambos son de un tamaño similar se unirán los grupos formando uno solo.
+  * Si el líder de un grupo es superior al del otro aún no se ha decidido que sucederá dado que puede dar lugar a colisiones con los otros comportamientos.
+  
+
+Primero deberé investigar posibles referentes en youtube, stackoverflow y libros de inteligencia artificial de la biblioteca de la Universidad Complutense.
 Buscaré acercamientos similares a la propuesta de esta práctica.
+
 
 ## 3. Funcionalidades
 ------
@@ -28,8 +50,11 @@ Las funcionalidades que se desean realizar son las siguientes:
 - Movimiento automático + Merodeo + Animación
 - Detección de presas y predadores.
 - Movimiento en banco y desbandada.
-- Malla con preferencias de lugares
-- Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
+- Spawners de los distintos tipos de peces.
+
+
+## 4. Ampliaciones
+------
 
 Toma de decisiones
 - Valoración de incomodidad de terreno frente a hambre.
@@ -45,13 +70,8 @@ Distintas razas con diferentes comportamientos.
 -Alevines ( son alimento, se reproducen pero no pierden vida con el tiempo)
 -Peces normales según tamaño comen o huyen.
 
-
-
-Spawners de los distintos tipos de peces.
-
-
-## 4. Ampliaciones
-------
+- Malla con preferencias de lugares
+- Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
 
 Extra:
 Tu puedes controlar un pez con teclado. 
