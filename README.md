@@ -1,7 +1,7 @@
 # -IAV22-LUISCANO
 PROYECTO FINAL IA 22 LUIS CANO
-# P4
-**Práctica 4 de Inteligencia Artificial para Videojuegos UCM**
+# P5
+** Práctica 5 de Inteligencia Artificial para Videojuegos UCM **
 
 Sergio Alberto Luis Cano Grupo 18
 
@@ -77,3 +77,19 @@ Extra:
 Tu puedes controlar un pez con teclado. 
 - Comer 
 - Moverse 
+
+## Proceso de Trabajo
+
+- Descargo un ejemplo de la Unity store para poder exportar los prefab de los peces y sus animaciones para usarlos en el proyecto.
+La carpeta ha sido renombrada a paquete exportado.
+- Busco información con la palabra clave "flocking". Recibiendo múltiples resultados acerca de estudios de 1987 en los que se habla de un proceso llamado "boids" y sigo esa línea de investigación.
+- Se estima que el acercamiento inicial de la práctica no es viable y puede requerir de una enorme cantidad de tiempo.
+- Los cambios que se estiman oportunos es lograr que inicialmente los individuos se puedan mover según boids y no por merodeo como inicialmente se había planeado.
+*Que los game objects sean conscientes de la cercanía de otros game objects ya sea por raycasting, por detección de colliders más grandes que el propio game object
+que le permita conocer la ubicación de otros en su radio de acción.
+
+
+## Referencias y Bibliografía
+
+- Información acerca de movimiento en manada y boids.
+  https://en.wikipedia.org/wiki/Boids
