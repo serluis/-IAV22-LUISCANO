@@ -66,9 +66,9 @@ Toma de decisiones
 - Reproducción de ejemplares.
 
 Distintas razas con diferentes comportamientos.
--Pirañas ( atacan en manada pese a perdidas)
--Alevines ( son alimento, se reproducen pero no pierden vida con el tiempo)
--Peces normales según tamaño comen o huyen.
+- Pirañas ( atacan en manada pese a pérdidas)
+- Alevines ( son alimento, se reproducen pero no pierden vida con el tiempo)
+- Peces normales según tamaño comen o huyen.
 
 - Malla con preferencias de lugares
 - Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
