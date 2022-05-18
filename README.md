@@ -89,6 +89,7 @@ La carpeta ha sido renombrada a paquete exportado.
 *Que los game objects sean conscientes de la cercanía de otros game objects ya sea por raycasting, por detección de colliders más grandes que el propio game object
 que le permita conocer la ubicación de otros en su radio de acción.*
 
+- Creo un Spawner.cs que será el encargado de generar los gameobjects. Tiene las opciones de número de objetos a generar,
 
 ## Referencias y Bibliografía
 
