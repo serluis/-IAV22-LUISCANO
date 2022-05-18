@@ -95,3 +95,4 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 
 - Información acerca de movimiento en manada y boids.
   https://en.wikipedia.org/wiki/Boids
+  http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/
