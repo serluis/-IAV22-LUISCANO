@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
             boid.transform.position = pos;                                           //En la pos dada
             boid.transform.forward = Random.insideUnitSphere;                        //Con la dir aleatoria
 
-            //boid.SetColour(color);                                                   //Debug para saber cual es cual
+            boid.SetColor(color);                                                   //Debug para saber cual es cual
         }
     }
 
