@@ -96,7 +96,9 @@ que le permita conocer la ubicación de otros en su radio de acción.*
   **Spawner
   **BoidOpciones
   **BoidRayos
+  ( Hay eplicaciones detalladas en los comentarios del código.)
   
+- Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
 
 
 ## Referencias y Bibliografía
