@@ -47,10 +47,12 @@ Buscaré acercamientos similares a la propuesta de esta práctica.
 
 Las funcionalidades que se desean realizar son las siguientes:
 
-- Movimiento automático + Merodeo + Animación
+- Movimiento automático + Merodeo + Animación (realizado)
 - Detección de presas y predadores.
-- Movimiento en banco y desbandada.
-- Spawners de los distintos tipos de peces.
+- Movimiento en banco.(realizado)
+- Evasión de obstáculos.(realizado)
+- Desbandada. 
+- Spawners de los distintos tipos de peces. (Realizado)
 
 
 ## 4. Ampliaciones
@@ -63,7 +65,7 @@ Toma de decisiones
 - Recuperación de vida a traves de alimento.
 - vida no baja en terreno preferencial.
 - no come si vida llena.
-- Reproducción de ejemplares.
+- Reproducción de ejemplares. (realizado)
 
 Distintas razas con diferentes comportamientos.
 - Pirañas ( atacan en manada pese a pérdidas)
@@ -74,9 +76,10 @@ Distintas razas con diferentes comportamientos.
 - Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
 
 Extra:
-Tu puedes controlar un pez con teclado. 
-- Comer 
+- Tu puedes controlar un pez con teclado. 
+- Comer (realizado)
 - Moverse 
+- Movimiento de cámara. (realizado)
 
 ## Proceso de Trabajo
 
@@ -99,6 +102,7 @@ que le permita conocer la ubicación de otros en su radio de acción.*
   ( Hay eplicaciones detalladas en los comentarios del código.)
   
 - Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
+- Agrego un controlador sencillo para la cámara. Script Movement.
 
 
 ## Referencias y Bibliografía
