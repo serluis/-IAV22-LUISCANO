@@ -37,7 +37,7 @@ public class Boid : MonoBehaviour {
     /// <summary>
     /// Utiliza los parametros de boidOpciones y el transform de la direccion objetivo
     /// </summary>
-    public void InicidorBoid (BoidOpciones opciones, Transform objetivo) {
+    public void IniciadorBoid (BoidOpciones opciones, Transform objetivo) {
         this.objetivo = objetivo;
         this.opciones = opciones;
 

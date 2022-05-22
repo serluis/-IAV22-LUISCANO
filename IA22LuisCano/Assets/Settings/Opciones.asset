@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velMin: 8
   velMax: 10
-  radioPercepcion: 10
+  radioPercepcion: 11
   radioEvasion: 3
   fuerzaDirMax: 3
   pesoAlineamiento: 3
@@ -23,7 +23,7 @@ MonoBehaviour:
   pesoObjetivo: 1
   capaObstaculos:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 200
   radioLimites: 0.1
   evasionCollPeso: 15
   distanciaEvasionColPeso: 7

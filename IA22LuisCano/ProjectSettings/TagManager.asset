@@ -6,6 +6,8 @@ TagManager:
   tags:
   - shark
   - fish
+  - wall
+  - obstacle
   layers:
   - Default
   - TransparentFX

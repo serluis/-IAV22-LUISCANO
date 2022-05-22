@@ -8,12 +8,14 @@ public class BoidManager : MonoBehaviour {
 
     public BoidOpciones opciones; // acceso a las opciones
     public ComputeShader compute; // un programa en hlsl para direct x que potencia para no usar <GameComponent>()
-    Boid[] boids;                   
+    List<Boid> boids = new List<Boid>();                   
+                       
 
     void Start () {
-        boids = FindObjectsOfType<Boid> (); //busca en la escena todos los peces
+
+        boids.AddRange(FindObjectsOfType<Boid>()); 
         foreach (Boid b in boids) {
-            b.InicidorBoid (opciones, null);//los inicia
+            b.IniciadorBoid (opciones, null);//los inicia
         }
 
     }
@@ -21,10 +23,10 @@ public class BoidManager : MonoBehaviour {
     void Update () {
         if (boids != null) { //siempre que haya al menos uno
 
-            int numBoids = boids.Length;
+            int numBoids = boids.Count;
             var boidData = new BoidData[numBoids]; //array de datos de cada boid
 
-            for (int i = 0; i < boids.Length; i++) { //Asigna cada direccion a cada boid
+            for (int i = 0; i < boids.Count; i++) { //Asigna cada direccion a cada boid
                 boidData[i].posicion = boids[i].posicion;
                 boidData[i].direccion = boids[i].forward;
             }
@@ -33,7 +35,7 @@ public class BoidManager : MonoBehaviour {
             boidBuffer.SetData (boidData);
             //Funciona en conjunto con el programa de hlsl
             compute.SetBuffer (0, "boids", boidBuffer);
-            compute.SetInt ("numBoids", boids.Length);
+            compute.SetInt ("numBoids", boids.Count);
             compute.SetFloat ("viewRadius", opciones.radioPercepcion);
             compute.SetFloat ("avoidRadius", opciones.radioEvasion);
 
@@ -42,7 +44,7 @@ public class BoidManager : MonoBehaviour {
 
             boidBuffer.GetData (boidData);
 
-            for (int i = 0; i < boids.Length; i++) {
+            for (int i = 0; i < boids.Count; i++) {
                 boids[i].dirMediaBanco = boidData[i].dirBanco;
                 boids[i].centroBanco = boidData[i].centroBanco;
                 boids[i].dirMediaEvasion = boidData[i].dirEvasion;
@@ -69,5 +71,14 @@ public class BoidManager : MonoBehaviour {
                 return sizeof (float) * 3 * 5 + sizeof (int); // Malla de datos 5 vectores3
             }
         }
+    }
+
+    public void AgregaPez(Boid b)
+    {
+        boids.Add(b);
+    }
+    public void DestroyFish(Collision col)
+    {
+        boids.Remove(col.gameObject.GetComponent<Boid>());
     }
 }
