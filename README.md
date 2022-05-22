@@ -47,10 +47,10 @@ Buscaré acercamientos similares a la propuesta de esta práctica.
 
 Las funcionalidades que se desean realizar son las siguientes:
 
-- Movimiento automático + Merodeo + Animación (realizado)
+- Movimiento automático + Merodeo + Animación (Realizado)
 - Detección de presas y predadores.
-- Movimiento en banco.(realizado)
-- Evasión de obstáculos.(realizado)
+- Movimiento en banco. (Realizado)
+- Evasión de obstáculos. (Realizado)
 - Desbandada. 
 - Spawners de los distintos tipos de peces. (Realizado)
 
@@ -65,7 +65,7 @@ Toma de decisiones
 - Recuperación de vida a traves de alimento.
 - vida no baja en terreno preferencial.
 - no come si vida llena.
-- Reproducción de ejemplares. (realizado)
+- Reproducción de ejemplares. (Realizado)
 
 Distintas razas con diferentes comportamientos.
 - Pirañas ( atacan en manada pese a pérdidas)
@@ -76,10 +76,10 @@ Distintas razas con diferentes comportamientos.
 - Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
 
 Extra:
-- Tu puedes controlar un pez con teclado. 
-- Comer (realizado)
-- Moverse 
-- Movimiento de cámara. (realizado)
+- Tu puedes controlar un pez con teclado. (Realizado)
+- Comer. (Realizado)
+- Moverse. (Realizado)
+- Movimiento de cámara. (Realizado)
 
 ## Proceso de Trabajo
 
