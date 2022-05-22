@@ -103,7 +103,7 @@ que le permita conocer la ubicación de otros en su radio de acción.*
   
 - Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
 - Agrego un controlador sencillo para la cámara. Script Movement.
-
+- Dejo una cámara fija y creo un botón en la pantalla con el cual alternar entre controlar un pez mediante WASD y ratón y la cámara fija.
 
 ## Referencias y Bibliografía
 
