@@ -48,7 +48,8 @@ Buscaré acercamientos similares a la propuesta de esta práctica.
 Las funcionalidades que se desean realizar son las siguientes:
 
 - Movimiento automático + Merodeo + Animación (Realizado)
-- Detección de presas y predadores.
+- Detección de presas. (Realizado)
+- Detección de predadores.
 - Movimiento en banco. (Realizado)
 - Evasión de obstáculos. (Realizado)
 - Desbandada. 
