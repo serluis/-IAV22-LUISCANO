@@ -131,7 +131,9 @@ La carpeta ha sido renombrada a paquete exportado.
 *Que los game objects sean conscientes de la cercanía de otros game objects ya sea por raycasting, por detección de colliders más grandes que el propio game object
 que le permita conocer la ubicación de otros en su radio de acción.*
 
-- Establezco un entorno en Unity siimilar a un acuario y con obstáculos que serán necesarios más adelante.
+- Finalmente el uso de RayCasting es más útil.
+
+- Establezco un entorno en Unity siimilar a un acuario, con obstáculos que serán necesarios más adelante.
 - Creo las clases: 
   **Boid
   **BoidManager
