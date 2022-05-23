@@ -178,6 +178,8 @@ que le permita conocer la ubicación de otros en su radio de acción.*
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/scripts.jpg">
 </p>
 
+- Agregado audio, para el bocado del tiburón y un loop de fondo.
+
 ## Referencias y Bibliografía
 
  Información acerca de movimiento en manada y boids.
