@@ -53,6 +53,10 @@ Las funcionalidades que se desean realizar son las siguientes:
 - Detección de presas. (Realizado)
 
 <p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/tiburon.jpg">
+</p>
+
+<p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/detectaPeces.jpg">
 </p>
 
@@ -69,6 +73,10 @@ Las funcionalidades que se desean realizar son las siguientes:
 
 ### E
 - Evasión de obstáculos. (Realizado)
+
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
+</p>
 
 ### F
 - Spawners de los distintos tipos de peces. (Realizado)
@@ -137,6 +145,10 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 - Dejo una cámara fija y creo un botón en la pantalla con el cual alternar entre controlar un pez mediante WASD y ratón y la cámara fija.
 
 - Agrego funcionalidad de perseguir al tiburón que va comiendo peces.
+
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/scripts.jpg">
+</p>
 
 ## Referencias y Bibliografía
 
