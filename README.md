@@ -105,6 +105,8 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 - Agrego un controlador sencillo para la cámara. Script Movement.
 - Dejo una cámara fija y creo un botón en la pantalla con el cual alternar entre controlar un pez mediante WASD y ratón y la cámara fija.
 
+- Agrego funcionalidad de perseguir al tiburón que va comiendo peces.
+
 ## Referencias y Bibliografía
 
 - Información acerca de movimiento en manada y boids.
