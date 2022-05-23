@@ -18,7 +18,7 @@ public class Shark : MonoBehaviour
     //para generar peces y comer
     public GameObject deadSpawner;
     public BoidManager BM;
-
+    public AudioSource nom;
     
     private void Awake()
     {
@@ -111,6 +111,7 @@ public class Shark : MonoBehaviour
         {
             BM.DestroyFish(collision);
             Destroy(collision.gameObject);
+            nom.Play();
             callDead();
         }
 
