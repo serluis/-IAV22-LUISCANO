@@ -151,15 +151,15 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 - Establezco un entorno en Unity siimilar a un acuario, con obstáculos que serán necesarios más adelante.
 - Creo las clases: 
 
-  **Boid
+  ** Boid: Encargado de la inteligencia de los peces y su movimiento.
   
-  **BoidManager
+  ** BoidManager: Encargado del movimiento en banco, de manejar las colisiones y cálculos.
   
-  **Spawner
+  ** Spawner: Encargado de generar los peces.
  
-  **BoidOpciones
+  ** BoidOpciones: Encargado de las variables necesarias.
   
-  **BoidRayos
+  ** BoidRayos: Encargado de calcular los rayos de detección.
   
   ( Hay eplicaciones detalladas en los comentarios del código.)
   
