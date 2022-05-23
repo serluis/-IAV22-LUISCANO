@@ -9,6 +9,11 @@ Sergio Alberto Luis Cano Grupo 18
 # Práctica 5: Flocking 3D Animalista
 ------
 
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/titulo.jpg">
+</p>
+
+
 ## 1. Resumen de la práctica:
 ------
 La práctica consistirá en un simulador de vida (Peces o pájaros), con movimiento en manada. (Flocking).
