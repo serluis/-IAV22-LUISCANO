@@ -74,15 +74,20 @@ public class Shark : MonoBehaviour
         return forward;
     }
 
-    private void OnCollisionEnter(Collision collision) //comer
+    Vector3 Girar(Vector3 vector)
     {
-        if(collision.gameObject.tag == "fish")
+        Vector3 v = vector.normalized * opciones.velMax - velocidad;
+        return Vector3.ClampMagnitude(v, opciones.fuerzaDirMax);
+    }
+    bool Chocar()
+    {
+        RaycastHit hit;
+        if (Physics.SphereCast(posicion, opciones.radioLimites, forward, out hit, opciones.distanciaEvasionColPeso, opciones.capaObstaculos))
         {
-            BM.DestroyFish(collision);
-            Destroy(collision.gameObject);
-            callDead();
+            return true;
         }
-
+        else { }
+        return false;
     }
     Vector3 DetectorParedes()
     {
@@ -100,20 +105,15 @@ public class Shark : MonoBehaviour
 
         return forward;
     }
-    Vector3 Girar(Vector3 vector)
+    private void OnCollisionEnter(Collision collision) //comer
     {
-        Vector3 v = vector.normalized * opciones.velMax - velocidad;
-        return Vector3.ClampMagnitude(v, opciones.fuerzaDirMax);
-    }
-    bool Chocar()
-    {
-        RaycastHit hit;
-        if (Physics.SphereCast(posicion, opciones.radioLimites, forward, out hit, opciones.distanciaEvasionColPeso, opciones.capaObstaculos))
+        if(collision.gameObject.tag == "fish")
         {
-            return true;
+            BM.DestroyFish(collision);
+            Destroy(collision.gameObject);
+            callDead();
         }
-        else { }
-        return false;
+
     }
     public void callDead() // llamar al generador
     {
