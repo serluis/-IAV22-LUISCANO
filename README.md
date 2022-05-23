@@ -170,5 +170,16 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 ## Referencias y Bibliografía
 
 - Información acerca de movimiento en manada y boids.
-  https://en.wikipedia.org/wiki/Boids
-  http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/
+
+ * https://en.wikipedia.org/wiki/Boids
+ * http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/
+ 
+- Manual de Unity para diversas tareas.
+
+ * Manual de Unity  https://docs.unity3d.com/es/530/Manual/UnityManual.html
+
+- Inteligencia Artificial
+
+ * Unity 2018 Artificial Intelligence Cookbook, Second Edition (Repositorio) https://github.com/PacktPublishing/Unity-2018-Artificial-Intelligence-Cookbook-Second-Edition
+ * Unity Artificial Intelligence Programming, Fourth Edition (Repositorio) https://github.com/PacktPublishing/Unity-Artificial-Intelligence-Programming-Fourth-Edition
+  
