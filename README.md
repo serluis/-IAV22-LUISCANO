@@ -183,3 +183,8 @@ que le permita conocer la ubicación de otros en su radio de acción.*
  * Unity 2018 Artificial Intelligence Cookbook, Second Edition (Repositorio) https://github.com/PacktPublishing/Unity-2018-Artificial-Intelligence-Cookbook-Second-Edition
  * Unity Artificial Intelligence Programming, Fourth Edition (Repositorio) https://github.com/PacktPublishing/Unity-Artificial-Intelligence-Programming-Fourth-Edition
   
+Tutoriales diversos de YouTube
+
+* https://www.youtube.com/watch?v=RQ_peeoXTLo
+* https://www.youtube.com/watch?v=QSqAz5ohODo&t
+* https://www.youtube.com/watch?v=axb5twzRgUo&t
