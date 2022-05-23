@@ -52,9 +52,13 @@ Las funcionalidades que se desean realizar son las siguientes:
 ### B
 - Detección de presas. (Realizado)
 
+Éste es nuestro tiburón, es de color rojo para llamar la atención.
+
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/tiburon.jpg">
 </p>
+
+Tiene un método que le permite detectar peces cercanos y dirigirse hacia ellos para una vez alcanzados, devorarlos. Ésto a su vez desencadenará una generación de un pez de color anaranjadonuevo para que nunca nos quedemos sin peces.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/detectaPeces.jpg">
@@ -62,10 +66,13 @@ Las funcionalidades que se desean realizar son las siguientes:
 
 ### C
 - Detección de predadores.
-( Debido a la falta de tiempo se detecta al tiburón como un obstáculo más)
+
+El banco de peces detecta al tiburón como un obstáculo. Los peces rodearán al tiburón como si fuera un obstáculo más.
 
 ### D
 - Movimiento en banco. (Realizado)
+
+Cuando un pez encuentra a otro ajusta su dirección a la media de los demás y se convierte en un banco.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
@@ -73,6 +80,7 @@ Las funcionalidades que se desean realizar son las siguientes:
 
 ### E
 - Evasión de obstáculos. (Realizado)
+
 En la imagen se muestra como la dirección general son las flechas naranjas, mientras que la amarilla representa como se desplazan por la izquierda, separándose del banco principal y la verde como el resto del banco hace un giro hacia abajo.
 
 <p align="center">
@@ -81,6 +89,8 @@ En la imagen se muestra como la dirección general son las flechas naranjas, mie
 
 ### F
 - Spawners de los distintos tipos de peces. (Realizado)
+
+Hay 3 Spawners de peces de diferentes colores y uno extra invisible que será el encargado de generar tantos peces como haya devorado el tiburón.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/spawners.jpg">
@@ -98,6 +108,10 @@ Extras Realizados:
 - Tu puedes controlar un pez con teclado. (Realizado)
 - Moverse. (Realizado)
 - Movimiento de cámara. (Realizado)
+
+Esta imagen muestra el pez que podemos controlar de color azul con una cámara en tercera persona.
+El botón para activarlo está arriba a la izquierda con la leyenda "Controlar pez".
+Los controles serán WASD para moverse y shift para acelerar, la cámara también tiene cierto giro con el movimiento del ratón.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/control pez.jpg">
