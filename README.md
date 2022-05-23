@@ -73,6 +73,7 @@ Las funcionalidades que se desean realizar son las siguientes:
 
 ### E
 - Evasión de obstáculos. (Realizado)
+En la imagen se muestra como la dirección general son las flechas naranjas, mientras que la amarilla representa como se desplazan por la izquierda, separándose del banco principal y la verde como el resto del banco hace un giro hacia abajo.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/esquiva.jpg">
