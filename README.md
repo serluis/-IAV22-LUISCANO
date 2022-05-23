@@ -48,6 +48,12 @@ Buscaré acercamientos similares a la propuesta de esta práctica.
 Las funcionalidades que se desean realizar son las siguientes:
 
 - Movimiento automático + Merodeo + Animación (Realizado)
+
+<p align="center">
+  <img src="https://github.com/-IAV22-LUISCANO/IA22LuisCano/imagenesMD/banco.jpg">
+</p>
+
+
 - Detección de presas. (Realizado)
 - Detección de predadores.
 - Movimiento en banco. (Realizado)
