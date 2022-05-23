@@ -150,11 +150,17 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 
 - Establezco un entorno en Unity siimilar a un acuario, con obstáculos que serán necesarios más adelante.
 - Creo las clases: 
+
   **Boid
+  
   **BoidManager
+  
   **Spawner
+ 
   **BoidOpciones
+  
   **BoidRayos
+  
   ( Hay eplicaciones detalladas en los comentarios del código.)
   
 - Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
