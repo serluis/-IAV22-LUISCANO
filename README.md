@@ -46,24 +46,54 @@ Buscaré acercamientos similares a la propuesta de esta práctica.
 ------
 
 Las funcionalidades que se desean realizar son las siguientes:
-
+### A
 - Movimiento automático + Merodeo + Animación (Realizado)
+
+### B
+- Detección de presas. (Realizado)
+
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/detectaPeces.jpg">
+</p>
+
+### C
+- Detección de predadores.
+( Debido a la falta de tiempo se detecta al tiburón como un obstáculo más)
+
+### D
+- Movimiento en banco. (Realizado)
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
 </p>
 
-
-- Detección de presas. (Realizado)
-- Detección de predadores.
-- Movimiento en banco. (Realizado)
+### E
 - Evasión de obstáculos. (Realizado)
-- Desbandada. 
+
+### F
 - Spawners de los distintos tipos de peces. (Realizado)
 
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/spawners.jpg">
+</p>
+
+### G
+- Desbandada. (No realizado)
 
 ## 4. Ampliaciones
 ------
+
+Extras Realizados:
+- Reproducción de ejemplares. (Realizado)
+- Comer. (Realizado)
+- Tu puedes controlar un pez con teclado. (Realizado)
+- Moverse. (Realizado)
+- Movimiento de cámara. (Realizado)
+
+<p align="center">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/control pez.jpg">
+</p>
+
 
 Toma de decisiones
 - Valoración de incomodidad de terreno frente a hambre.
@@ -72,7 +102,6 @@ Toma de decisiones
 - Recuperación de vida a traves de alimento.
 - vida no baja en terreno preferencial.
 - no come si vida llena.
-- Reproducción de ejemplares. (Realizado)
 
 Distintas razas con diferentes comportamientos.
 - Pirañas ( atacan en manada pese a pérdidas)
@@ -82,11 +111,6 @@ Distintas razas con diferentes comportamientos.
 - Malla con preferencias de lugares
 - Coberturas + Intransitable + Zonas con Temperaturas + Profundidad.
 
-Extra:
-- Tu puedes controlar un pez con teclado. (Realizado)
-- Comer. (Realizado)
-- Moverse. (Realizado)
-- Movimiento de cámara. (Realizado)
 
 ## Proceso de Trabajo
 
