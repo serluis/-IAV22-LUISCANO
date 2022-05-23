@@ -75,7 +75,7 @@ Las funcionalidades que se desean realizar son las siguientes:
 - Evasión de obstáculos. (Realizado)
 
 <p align="center">
-  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/esquiva.jpg">
 </p>
 
 ### F
