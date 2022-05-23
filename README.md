@@ -52,9 +52,13 @@ Las funcionalidades que se desean realizar son las siguientes:
 ### B
 - Detección de presas. (Realizado)
 
+Éste es nuestro tiburón, es de color rojo para llamar la atención.
+
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/tiburon.jpg">
 </p>
+
+Tiene un método que le permite detectar peces cercanos y dirigirse hacia ellos para una vez alcanzados, devorarlos. Ésto a su vez desencadenará una generación de un pez de color anaranjadonuevo para que nunca nos quedemos sin peces.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/detectaPeces.jpg">
@@ -62,10 +66,13 @@ Las funcionalidades que se desean realizar son las siguientes:
 
 ### C
 - Detección de predadores.
-( Debido a la falta de tiempo se detecta al tiburón como un obstáculo más)
+
+El banco de peces detecta al tiburón como un obstáculo. Los peces rodearán al tiburón como si fuera un obstáculo más.
 
 ### D
 - Movimiento en banco. (Realizado)
+
+Cuando un pez encuentra a otro ajusta su dirección a la media de los demás y se convierte en un banco.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
@@ -74,12 +81,16 @@ Las funcionalidades que se desean realizar son las siguientes:
 ### E
 - Evasión de obstáculos. (Realizado)
 
+En la imagen se muestra como la dirección general son las flechas naranjas, mientras que la amarilla representa como se desplazan por la izquierda, separándose del banco principal y la verde como el resto del banco hace un giro hacia abajo.
+
 <p align="center">
-  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/banco.jpg">
+  <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/esquiva.jpg">
 </p>
 
 ### F
 - Spawners de los distintos tipos de peces. (Realizado)
+
+Hay 3 Spawners de peces de diferentes colores y uno extra invisible que será el encargado de generar tantos peces como haya devorado el tiburón.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/spawners.jpg">
@@ -97,6 +108,10 @@ Extras Realizados:
 - Tu puedes controlar un pez con teclado. (Realizado)
 - Moverse. (Realizado)
 - Movimiento de cámara. (Realizado)
+
+Esta imagen muestra el pez que podemos controlar de color azul con una cámara en tercera persona.
+El botón para activarlo está arriba a la izquierda con la leyenda "Controlar pez".
+Los controles serán WASD para moverse y shift para acelerar, la cámara también tiene cierto giro con el movimiento del ratón.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/control pez.jpg">
@@ -135,11 +150,17 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 
 - Establezco un entorno en Unity siimilar a un acuario, con obstáculos que serán necesarios más adelante.
 - Creo las clases: 
-  **Boid
-  **BoidManager
-  **Spawner
-  **BoidOpciones
-  **BoidRayos
+
+  ** Boid: Encargado de la inteligencia de los peces y su movimiento.
+  
+  ** BoidManager: Encargado del movimiento en banco, de manejar las colisiones y cálculos.
+  
+  ** Spawner: Encargado de generar los peces.
+ 
+  ** BoidOpciones: Encargado de las variables necesarias.
+  
+  ** BoidRayos: Encargado de calcular los rayos de detección.
+  
   ( Hay eplicaciones detalladas en los comentarios del código.)
   
 - Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
@@ -154,6 +175,22 @@ que le permita conocer la ubicación de otros en su radio de acción.*
 
 ## Referencias y Bibliografía
 
-- Información acerca de movimiento en manada y boids.
-  https://en.wikipedia.org/wiki/Boids
-  http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/
+ Información acerca de movimiento en manada y boids.
+
+ * https://en.wikipedia.org/wiki/Boids
+ * http://www.cs.toronto.edu/~dt/siggraph97-course/cwr87/
+ 
+ Manual de Unity para diversas tareas.
+
+ * Manual de Unity  https://docs.unity3d.com/es/530/Manual/UnityManual.html
+
+ Inteligencia Artificial
+
+ * Unity 2018 Artificial Intelligence Cookbook, Second Edition (Repositorio) https://github.com/PacktPublishing/Unity-2018-Artificial-Intelligence-Cookbook-Second-Edition
+ * Unity Artificial Intelligence Programming, Fourth Edition (Repositorio) https://github.com/PacktPublishing/Unity-Artificial-Intelligence-Programming-Fourth-Edition
+  
+Tutoriales diversos de YouTube
+
+* https://www.youtube.com/watch?v=RQ_peeoXTLo
+* https://www.youtube.com/watch?v=QSqAz5ohODo&t
+* https://www.youtube.com/watch?v=axb5twzRgUo&t
