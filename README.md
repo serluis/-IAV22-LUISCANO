@@ -67,7 +67,7 @@ Las funcionalidades que se desean realizar son las siguientes:
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/tiburon.jpg">
 </p>
 
-Tiene un método que le permite detectar peces cercanos y dirigirse hacia ellos para una vez alcanzados, devorarlos. Ésto a su vez desencadenará una generación de un pez de color anaranjadonuevo para que nunca nos quedemos sin peces.
+Tiene un método que le permite detectar peces cercanos y dirigirse hacia ellos para una vez alcanzados, devorarlos. Ésto a su vez desencadenará una generación de un pez de color anaranjado nuevo para que nunca nos quedemos sin peces.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/detectaPeces.jpg">
@@ -170,13 +170,13 @@ que le permita conocer la ubicación de otros en su radio de acción.*
   
   ** BoidRayos: Encargado de calcular los rayos de detección.
   
-  ( Hay eplicaciones detalladas en los comentarios del código.)
+  ( Hay explicaciones detalladas en los comentarios del código.)
   
 - Creo un tiburón que devorará peces si choca su collider con ellos y cada vez que se coma un pez se generará otro nuevo de color naranja. Los scripts son Shark y DeadSpawner.
 - Agrego un controlador sencillo para la cámara. Script Movement.
 - Dejo una cámara fija y creo un botón en la pantalla con el cual alternar entre controlar un pez mediante WASD y ratón y la cámara fija.
 
-- Agrego funcionalidad de perseguir al tiburón que va comiendo peces.
+- Agrego la funcionalidad de perseguir peces al tiburón que se los va comiendo.
 
 <p align="center">
   <img src="https://github.com/serluis/-IAV22-LUISCANO/blob/main/IA22LuisCano/imagenesMD/scripts.jpg">
